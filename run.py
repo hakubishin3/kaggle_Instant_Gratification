@@ -137,6 +137,7 @@ def main():
             clf = QuadraticDiscriminantAnalysis(reg_param=0.5)
             clf.fit(train3p[train_index, :], cluster_labels[train_index])
 
+            # predict cluster labels
             val_prediction_6 = clf.predict_proba(train3p[test_index3, :])
             val_prediction = val_prediction_6[:, 3] + val_prediction_6[:, 4] + val_prediction_6[:, 5]
             oof[idx1[test_index3]] = val_prediction
