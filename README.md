@@ -1,4 +1,4 @@
-# kaggle_Instant_Gratification
+# Solution
 
 - The Competition data was created with sklearn's make_classification.
 - The following parameters were shown by EDA.
