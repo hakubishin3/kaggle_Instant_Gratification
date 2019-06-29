@@ -13,5 +13,5 @@ The following parameters were shown by EDA.
   - scale=1
 
 ## Training
-Step 1. caluculate GaussianMixture separately for each target label
-Step 2. train QDA using the cluster labels created in Step 1
+Step 1. caluculate GaussianMixture separately for each target label  
+Step 2. train QDA using the cluster labels created in Step 1  
