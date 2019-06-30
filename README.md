@@ -1,8 +1,7 @@
 # Solution
 
 ## Findings
-The Competition data was created with sklearn's make_classification.  
-The following parameters were shown by EDA.
+EDA shows that the competition data was created by sklearn's make_classification with the following parameters.
   - n_clusters_per_class=3
   - hypercube=True
   - flip_y=0.05
